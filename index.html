@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Divasa Fresh Market Rates Update</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Divasa Fresh Market Rates Update</h1>
+  </header>
+
+  <main class="container">
+    <div class="apps-row">
+      <input id="appsScriptUrl" class="input-url" placeholder="(Optional) Paste Google Apps Script POST URL to save directly to a Sheet" />
+      <button id="submitBtn" class="btn primary">Submit & Save</button>
+      <button id="downloadBtn" class="btn">Download CSV</button>
+    </div>
+
+    <div id="status" class="status"></div>
+
+    <div id="tables"></div>
+  </main>
+
+  <footer class="footer">
+    <small>Divasa Fresh — Autosaves locally. Paste Apps Script URL to save directly.</small>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
